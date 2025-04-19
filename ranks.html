@@ -799,7 +799,7 @@ const serverId = "420539"
 
 const getDiscordCount = async () => {
     try {
-        const request = await axios.get('https://discordapp.com/api/guilds/997075247922688090/embed.json')
+        const request = await axios.get('https://discord.com/api/guilds/1358329185592017037/widget.json')
         return request.data['presence_count']
     } catch (error) {
         console.log(error)
